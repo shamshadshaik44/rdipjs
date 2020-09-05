@@ -1,0 +1,19 @@
+table,td {
+  border: 3px solid black;
+}
+input[type="button"]
+{ 
+  width:100%;
+  padding:10px;
+    outline:none;
+    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+input[type="text"]
+{
+  border:none;
+  padding:10px;
+  outline:none;
+  font-weight:normal;
+  color:#555
+} 
