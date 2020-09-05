@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="task1.css">
+    <title>UI Calculator</title>
+</head>
+<body>
+ <div class="container pt-3"> 
+<form onsubmit="project2.js;return false;">
+<table align="center">
+<tr>
+<td colspan="4"><input id="showthevalue" type="text" value="0"></td>
+</tr>
+<tr>
+<td><input class="number" type="button" value=7 onClick="Num(this.value);"></td>
+<td><input class="number" type="button" value=8 onClick="Num(this.value);"></td>
+<td><input class="number" type="button" value=9 onClick="Num(this.value);"></td>
+<td><input class="clear" type="button" value='C' onClick="clear();"></td>
+</tr>
+<tr>
+<td><input class="number" type="button" value=4 onClick="Num(this.value);"></td>
+<td><input class="number" type="button" value=5 onClick="Num(this.value);"></td>
+<td><input class="number" type="button" value=6 onClick="Num(this.value);"></td>
+<td><input class="operation" type="button" value='x' onClick="opper('*');"></td>
+</tr>
+<tr>
+<td><input class="number" type="button" value=1 onClick="Num(this.value);"></td>
+<td><input class="number" type="button" value=2 onClick="Num(this.value);"></td>
+<td><input class="number" type="button" value=3 onClick="Num(this.value);"></td>
+<td><input class="operation" type="button" value='/' onClick="opper(this.value);"></td>
+</tr>
+<tr>
+<td><input class="number" type="button" value='.' onClick="Num(this.value);"></td>
+<td><input class="number" type="button" value=0 onClick="Num(this.value);"></td>
+<td><input class="operation" type="button" value='%' onClick="opper('%');"></td>
+<td><input class="operation" type="button" value='*' onClick="opper(this.value);"></td>
+</tr>
+<tr>
+    <td><input class="operation" type="button" value='sqrt' onClick="opper(this.value);"></td>
+    <td colspan="4"><input class="operation" type="button" value='absl' onClick="opper(this.value);"></td>
+</tr>
+<tr>
+<td><input class="operation" type="button" value='+' onClick="opper(this.value);"></td>
+<td ><input class="operation" type="button" value='-' onClick="opper(this.value);"></td> 
+<td colspan="4">
+<input type="button" class="equal" value='=' onClick="equalto();">
+</td>
+</tr>
+
+</table>
+</form>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="input.js"></script>
+</body>
+</html>
